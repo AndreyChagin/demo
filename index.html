@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!--link>-->
+    <link rel="stylesheet" href="css/style.css">
+</head> <body>
+    <!--header.section__header>div.container.block>a.logo>img.logo__img>-->
+    <header class="section__header">
+        <div class="container block">
+                <a href="#" class="logo">
+                    <img src="img/logo.svg" alt="Логотип" class="logo__img">
+                </a>
+                <!--input.input.input-adress[placeholder="Адрес доставки"]>div.buttons>button.button.button__people.button--one>
+                    button.button..button__cart.button--two>-->
+                <input type="text" class="input input-adress" placeholder="Адрес доставки">
+                    <div class="buttons">
+                        <button class="button button__people button--one">Войти</button>
+                        <button class="button button__cart button--two">Корзина</button>
+                    </div>
+                </input>
+        </div>
+    </header>
+    <!--section.section__promo>div.container.block__promo>div.promo__info>h1.promo__
+        title{Онлайн-сервис <br> доставки еды на дом}+p.promo__desc
+        {Блюда из любимого ресторана привезет <br> курьер в перчатках, маске и с антисептиком}>-->
+    <section class="section__promo">
+        <div class="container block__promo">
+            <div class="promo__info">
+                <h1 class="promo__title">Онлайн-сервис <br> доставки еды на дом</h1>
+                <p class="promo__desc">Блюда из любимого ресторана привезет <br> курьер в перчатках, маске и с антисептиком</p>
+            </div>
+        </div>
+    </section>
+    <!--section.section__restourants>div.container>div.restour__search>h2.section__title{Рестораны}+input.input.input-search>-->
+    <section class="section__restourants">
+        <div class="container">
+            <div class="restour__search">
+                <h2 class="section__title">Рестораны</h2>
+                <input type="text" class="input input-search" placeholder="Поиск блюд и ресторанов">
+            </div>
+            <!--.cards>.card>a.card_header>(img.card__img[alt="картинка"])>-->
+            <div class="cards">
+                <div class="card">
+                    <a href="#" class="card_header">
+                        <img src="img/pizzaplus.png" alt="картинка" class="card__img">
+                    </a>
+                    <!--.card__main>.card__title>h3.title{Пицаа плюс}+span.title__time{50 мин}>-->
+                    <div class="card__main">
+                        <div class="card__title">
+                            <h3 class="title">Пицца плюс</h3>
+                            <span class="title__time">50мин</span>
+                        </div>
+                        <!--.card__desc>strong.card__reit{4,5}+span.card__price{от 900р}+p.card__category{Пицца}>-->
+                        <div class="card__desc">
+                            <strong class="card__reit">4,5</strong>
+                            <span class="card__price">от 900р</span>
+                            <p class="card__category">Пицца</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

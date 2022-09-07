@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.container{
+
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-adress{
+    max-width: 690px;
+    width: 100%;
+    padding: 8px 12px 8px 32px;
+    background: url(../img/home.svg) no-repeat 10px center;
+}
+
+.input-adress::placeholder{
+    color: #BFBFBF;
+    line-height: 24px;
+}
+
+.input{
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    outline: none; 
+}
+
+.section__header{
+    margin-top: 44px;
+    margin-bottom: 40px;
+}
+
+.logo{
+    max-height: 40px;
+}
+
+.logo__img{
+    height: 100%;
+}
+
+.button{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px 19px 8px 33px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 9px;
+    width: 105px;
+}
+
+.button__people{
+    background: url(../img/people.svg) no-repeat 16px center;
+}
+
+.button--one{
+    background-color: #1890FF;
+    color: #fff;
+    border: 1px solid #1890FF;
+}
+
+.button__cart{
+    background: url(../img/Vector.svg) no-repeat 16px center;
+}
+
+.button--two{
+    border: 1px solid #D9D9D9;
+}
+
+.section__promo{
+    margin-bottom: 56px;
+}
+
+.block__promo{
+    background: #FFF1B8 url(../img/fon.png) no-repeat right center;
+    padding: 68px 0;
+    padding-left: 71px;
+    border-radius: 10px;
+    filter: drop-shadow(0px 7px 12px rgba(158, 158, 163, 0.1));
+}
+
+.promo__info{
+    max-width: 530px;
+    width: 100%;
+}
+
+.promo__title{
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 46px;
+    color: #302C34;
+    margin-bottom: 20px;
+}
+
+.promo__desc{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #302C34;
+}
+
+.restour__search{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.section__title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.input-search{
+    max-width: 306px;
+    width: 100%;
+    padding: 5px 12px 5px 32px;
+    background: url(../img/search.svg) no-repeat 10px 11px;
+}
+
+.input-search::placeholder{
+    color: #BFBFBF;
+    line-height: 24px;
+}
+
+.card{
+    max-width: 384px;
+    width: 100%;
+}
+
+.card__main{
+    padding: 21px 24px 35px;
+}
+
+.card__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.title__time{
+    background: #262626;
+    border-radius: 2px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 4px 8px;
+
+}
+
+.card__desc{
+    margin-left: 21px ;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.card__reit{
+    position: relative;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+}
+
+.card__reit::before{
+    content: '';
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    top: 7px;
+    left: -22px;
+    background: url(../img/reit.svg) no-repeat center / cover;
+}
+
+
+.card__price{
+    margin-left: 26px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+}
+
+.card__category{
+    position: relative;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+    margin-left: 25px;
+}
+
+.card__category::before{
+    content: '';
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 12px;
+    left: -15px;
+    background: url(../img/Ellipse.svg) no-repeat center / cover;
+}
